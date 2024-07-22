@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-principal: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: grey;
+    font-family: var(--fonte-principal);
+}
+
+.titulo {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    margin: 1em 2em;
+    text-align: center;
+}
+
+.videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    gap: .5em;
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Super Friend';
+    src: url('Super Friend.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Super Friend', Times, serif;
+    font-size: 5em;
+}

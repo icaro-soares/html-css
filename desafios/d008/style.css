@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgrey;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+p ul {
+    font-size: 14px;
+    font-weight: 400;
+}
