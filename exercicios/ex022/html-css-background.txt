@@ -1,0 +1,4 @@
+Dica: primeiro configurar uma cor de fundo junto com o background-image, caso a conexão do usuário esteja lenta, o mesmo já pode ir consumindo o conteúdo do site com uma cor predefinida.
+
+Background-size: cover x contain: o cover mostra a imagem toda tentando adaptá-la a tela cortando o conteudo, na tentativa de mostrar tudo.
+Já o contain irá mostrar a imagem toda, mas em um tamanho q caiba na tela.
