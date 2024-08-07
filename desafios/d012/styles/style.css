@@ -15,39 +15,12 @@ html, body {
     text-align: center;
 }
 
-.cabecalho > h1 {
+.cabecalho-titulo {
     font-variant: small-caps;
 }
 
-.cabecalho > p {
+.cabecalho-texto {
     font-variant: small-caps;
-}
-
-section {
-    padding: 10vh 0;
-    padding-left: 2em;
-    line-height: 2em;
-}
-
-.normal {
-    background-color: white;
-    color: black;
-}
-
-.decorada {
-    background-color: rgb(75, 72, 72);
-    color: white;
-}
-
-section.decorada > p {
-    background-color: black;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    padding: .5em 0;
-    text-align: center;
 }
 
 .link {
@@ -58,4 +31,32 @@ footer {
 
 .link:hover {
     text-decoration: underline;
+}
+
+.principal-secao {
+    padding: 10vh 0;
+    padding-left: 2em;
+    line-height: 2em;
+}
+
+.principal-secao-normal {
+    background-color: white;
+    color: black;
+}
+
+.principal-secao-decorada {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.principal-secao-decorada > .principal-secao-texto {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    padding: .5em 0;
+    text-align: center;
 }
