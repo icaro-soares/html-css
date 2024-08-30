@@ -41,19 +41,19 @@
         <caption>boletim</caption>
         <thead>
             <tr>
-                <th rowspan="2" class="topo">Área</th>
-                <th rowspan="2" class="topo">Disciplinas</th>
-                <th colspan="2" class="topo">Notas</th>
-                <th rowspan="2" class="topo">Média</th>
+                <th rowspan="2" scope="col" class="topo">Área</th>
+                <th rowspan="2" scope="col" class="topo">Disciplinas</th>
+                <th colspan="2" scope="colgroup" class="topo">Notas</th>
+                <th rowspan="2" scope="col" class="topo">Média</th>
             </tr>
             <tr>
-                <th class="topo">Nota1</th>
-                <th class="topo">Nota2</th>
+                <th scope="row" class="topo">Nota1</th>
+                <th scope="row" class="topo">Nota2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="5">Exatas</th>
+                <th rowspan="5" scope="colgroup">Exatas</th>
             </tr>
             <tr>
                 <td>Matemática</td>
@@ -80,11 +80,11 @@
                 <td>8,5</td>
             </tr>
             <tr>
-                <th colspan="4" class="topo esquerda">Média de Exatas</th>
-                <th class="topo">6,5</th>
+                <th colspan="4" scope="row" class="topo esquerda">Média de Exatas</th>
+                <th scope="row" class="topo">6,5</th>
             </tr>
             <tr>
-                <th rowspan="3">Humanas</th>
+                <th rowspan="3" scope="rowgroup">Humanas</th>
             </tr>
             <tr>
                 <td>História</td>
@@ -99,8 +99,8 @@
                 <td>7,3</td>
             </tr>
             <tr>
-                <th colspan="4" class="topo esquerda">Média de Humanas</th>
-                <th class="topo">7,6</th>
+                <th colspan="4" scope="colgroup" class="topo esquerda">Média de Humanas</th>
+                <th scope="row" class="topo">7,6</th>
             </tr>
         </tbody>
     </table>
