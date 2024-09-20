@@ -1,2 +1,1 @@
-Cadastro completo!
-Seus dados foram efetivamente enviados
+Cadastro concluído com sucesso!
