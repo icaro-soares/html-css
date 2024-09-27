@@ -3,6 +3,6 @@
 /* estilo para telas em formato portrait (em pé) */
 
 body {
-    background: url('../imagens/cev-portrait.jpg');
+    background-image: url('../imagens/cev-portrait.jpg');
     background-position: center bottom;
 }
