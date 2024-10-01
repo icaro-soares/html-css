@@ -30,7 +30,7 @@ Typical device breakpoints:
     #tv {display: none;}
 }
 
-@media screen and (min-width: 769px) and (max-width: 992px) { /* Tablets, celulares maiores */
+@media screen and (min-width: 768px) and (max-width: 992px) { /* Tablets, celulares maiores */
     body {
         background-image: url('../assets/back-tablet.jpg');
     }
@@ -41,7 +41,7 @@ Typical device breakpoints:
     #tv {display: none;}
 }
 
-@media screen and (min-width: 993px) and (max-width: 1279px) { /* Laptops, tablets maiores na horizontal e pequenos desktops */
+@media screen and (min-width: 992px) and (max-width: 1279px) { /* Laptops, tablets maiores na horizontal e pequenos desktops */
     body {
         background-image: url('../assets/back-pc.jpg');
     }
