@@ -12,3 +12,26 @@ body {
     background-color: darkgray;
     color: black;
 }
+
+.cabecalho {
+    background-color: gray;
+}
+
+.cabecalho-titulo {
+    padding: .6em;
+    text-align: center;
+}
+
+.cabecalho-menu {
+    display: block;
+}
+
+.cabecalho-menu-lista {
+    list-style-type: none;
+}
+
+.cabecalho-menu-lista-item-link {
+    display: block;
+    padding: .6em;
+    background-color: rgb(83, 81, 81);
+}
