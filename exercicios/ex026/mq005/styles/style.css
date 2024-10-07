@@ -50,6 +50,7 @@ body, html {
     background-color: white;
     margin: auto;
     margin-top: .6em;
+    margin-bottom: .6em;
     padding: 1.2em;
     border-radius: 1.2em;
 }
