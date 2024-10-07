@@ -1,20 +1,18 @@
 @charset "UTF-8";
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    height: 100vh;
-    background-color: darkgray;
-    color: black;
+body, html {
+    background-color: lightgray;
 }
 
 .cabecalho {
-    background-color: gray;
+    background-color: rgb(148, 148, 148);
 }
 
 .cabecalho-titulo {
@@ -33,5 +31,31 @@ body {
 .cabecalho-menu-lista-item-link {
     display: block;
     padding: .6em;
+    text-decoration: none;
+    text-align: center;
+    color: white;
     background-color: rgb(83, 81, 81);
+    border-top: 2px solid gray;
+}
+
+.cabecalho-menu-lista-item-link:hover {
+    background-color: gray;
+}
+
+.principal {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: .6em;
+    padding: .6em;
+    border-radius: .6em;
+}
+
+.principal-artigo-titulo {
+    padding-bottom: 1.2em;
+}
+
+.principal-artigo-paragrafo {
+    text-align: justify;
+    margin-bottom: .6em;
 }
