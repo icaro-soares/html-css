@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Versão mobile first */
+
 * {
     margin: 0;
     padding: 0;
@@ -57,5 +59,6 @@ body, html {
 
 .principal-artigo-paragrafo {
     text-align: justify;
-    margin-bottom: .6em;
+    margin-bottom: 1.2em;
+    text-indent: 1.5em;
 }
