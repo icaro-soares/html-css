@@ -23,8 +23,21 @@ body, html {
     padding: 1em;
 }
 
-.cabecalho-menu {
+#burguer {
     display: block;
+    text-align: center;
+    padding: .6em;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: rgb(156, 153, 153);
+}
+
+.cabecalho-menu {
+    display: none;
 }
 
 .cabecalho-menu-lista {
@@ -69,20 +82,4 @@ body, html {
     text-align: justify;
     margin-bottom: 1em;
     text-indent: 1.2em;
-}
-
-.rodape {
-    background-color: red;
-    color: white;
-}
-
-.rodape-texto {
-    padding: .6em;
-    text-align: center;
-}
-
-.rodape a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
 }
