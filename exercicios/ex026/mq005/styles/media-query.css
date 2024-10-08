@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    #burguer {
+        display: none;
+    }
+    .cabecalho-menu {
+        display: block;
+    }
+    .cabecalho-menu-lista-item {
+        display: inline-block;
+    }
+    .principal {
+        width: 768px;
+    }
+}
