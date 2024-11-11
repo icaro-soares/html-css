@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Boxes</title>
+</head>
+<style>
+    .container {
+        background-color: lightgray;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .item {
+        background-color: lightgreen;
+        border: 1px solid black;
+        text-align: center;
+        padding: .6em;
+        
+    }
+    #cxA {
+        flex: 0 1 150px;
+    }
+    #cxB {
+        flex: 2 0 150px;
+    }
+    #cxC {
+        flex: 1 2 150px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item" id="cxA">A</div>
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
+    </div>
+</body>
+</html>
