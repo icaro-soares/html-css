@@ -15,14 +15,40 @@ body {
 
 #cabecalho {
     background-color: gray;
+    color: white;
+    padding: .6em;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .cabecalho-titulo {
     border: 1px dotted black;
+    flex: 0 0 200px;
 }
 
-.cabecalho-subtitulo {
+.cabecalho-nav {
     border: 1px dotted black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.cabecalho-nav-link {
+    background-color: black;
+    color: white;
+    margin: .3em;
+    padding: .6em;
+    border-radius: .3em;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cabecalho-nav-link:hover {
+    background-color: lightgray;
+    transition: .3s;
 }
 
 #principal {
