@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+#cabecalho,
+.cabecalho-nav {
+    flex-flow: column nowrap;   
+}
+
+.cabecalho-titulo {
+    flex-basis: 45px;
+    margin-bottom: .6em;
+}
+
+.cabecalho-nav-link {
+    width: 90vw;
+}
