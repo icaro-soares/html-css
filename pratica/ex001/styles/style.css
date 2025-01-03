@@ -1,1 +1,17 @@
 @charset "UTF-8";
+
+body {
+    font: normal 14px arial;
+}
+
+div.container {
+    border: 1px dotted black;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
