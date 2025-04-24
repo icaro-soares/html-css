@@ -13,9 +13,13 @@ body {
     color: black;
 }
 
+header {
+    background-color: gray;
+}
+
 header h1 {
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 header menu {
@@ -27,7 +31,17 @@ header menu ul {
 }
 
 header menu ul li {
+    display: inline-block;
+    margin: 0 10px;
     padding: 10px 0;
+}
+
+header menu li a {
+    background-color: rgb(100, 99, 99);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 main {

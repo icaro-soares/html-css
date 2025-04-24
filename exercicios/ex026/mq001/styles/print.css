@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* Estilo para printers */
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+header menu {
+    display: none;
+}
+
+article::after {
+    text-align: center;
+    content: 'Artigo impresso em www.cursoemvideo.com/notícias'
+}
