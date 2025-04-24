@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* Estilo geral */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 16px Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+header menu {
+    padding: 2em;
+}
+
+header menu ul {
+    list-style-type: none;
+}
+
+header menu ul li {
+    padding: 10px 0;
+}
+
+main {
+    padding: 2em;
+}
+
+main p {
+    margin: 1em; 
+    text-indent: 1.5em;
+    line-height: 1.5em;
+}
