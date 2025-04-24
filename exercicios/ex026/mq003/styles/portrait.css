@@ -1,8 +1,0 @@
-@charset "UTF-8";
-
-/* Orientation portrait */
-
-body {
-    background-image: url('../assets/cev-portrait.jpg');
-    background-position: center bottom;
-}
