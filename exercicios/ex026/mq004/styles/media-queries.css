@@ -1,1 +1,26 @@
 @charset "UTF-8";
+
+@media print {
+    #phone { display: none;}
+    #impressora { display: block; }
+    body { background: black url(../assets/back-print.jpg) no-repeat; }
+}
+
+@media screen and (min-width: 768px) {
+    #phone { display: none;}
+    #tablet { display: block;}
+    body { background: black url(../assets/back-tablet.jpg) no-repeat; } 
+}
+
+
+@media screen and (min-width: 992px) {
+    #tablet { display: none;}
+    #desktop { display: block;}
+    body { background: black url(../assets/back-pc.jpg) no-repeat};
+}
+
+@media screen and (min-width: 1200px) {
+    #desktop { display: none;}
+    #televisao { display: block;}
+    body { background: black url(../assets/back-tv.jpg) no-repeat};
+}
