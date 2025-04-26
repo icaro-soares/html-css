@@ -3,7 +3,14 @@
 @media print {
     #phone { display: none;}
     #impressora { display: block; }
-    body { background: black url(../assets/back-print.jpg) no-repeat; }
+    main {
+        border: 2px solid black;
+    }
+    h1 {
+        font-family:'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
 }
 
 @media screen and (min-width: 768px) {
