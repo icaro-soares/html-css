@@ -33,27 +33,31 @@ body {
     padding: 10px;
     background-color: #646363;
     color: white;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgb(148, 145, 145);
 }
 
-.principal-artigo {
-    width: 65vw;
-    display: block;
+.cabecalho-navegacao-lista-item-link:hover {
+    background-color: gray;
+}
+
+
+.principal {
+    width: 90vw;
+    background-color: white;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: white;
+    border-radius: 8px;
     padding: 10px;
-    border-radius: 16px;
 }
 
 .principal-artigo-titulo {
-    margin: 10px 0;
+    padding-bottom: 20px;
 }
 
 .principal-artigo-texto {
-    margin: 10px 0;
     text-align: justify;
-    line-height: 1.5em;
     text-indent: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    font-size: 14px;
 }
