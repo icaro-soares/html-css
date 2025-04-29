@@ -19,7 +19,7 @@ body {
 }
 
 .cabecalho-navegacao {
-    display: block;
+    display: none;
 }
 
 .cabecalho-navegacao-lista {
@@ -40,6 +40,17 @@ body {
     background-color: gray;
 }
 
+.burguer {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #646363;
+}
+
+.burguer:hover {
+    cursor: pointer;
+    background-color: gray;
+}
 
 .principal {
     width: 90vw;

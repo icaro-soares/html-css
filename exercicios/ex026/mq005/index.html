@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Queries</title>
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header class="cabecalho">
         <h1 class="cabecalho-titulo">Meu site</h1>
-        <nav class="cabecalho-navegacao">
+        <span class="material-symbols-outlined burguer" onclick="clickMenu()">menu</span>
+        <nav class="cabecalho-navegacao itens">
             <ul class="cabecalho-navegacao-lista">
                 <li class="cabecalho-navegacao-lista-item">
                     <a href="#" class="cabecalho-navegacao-lista-item-link">Opção 1</a>
@@ -41,5 +43,10 @@
             <p class="principal-artigo-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ex ea officiis est accusamus ducimus, debitis odio quis repellendus exercitationem assumenda expedita nulla, ratione laboriosam! Distinctio, quis. Illo, dolorem rem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nostrum voluptas officiis expedita obcaecati sapiente reiciendis provident, quas eum totam? Sapiente id quisquam nostrum dicta consequatur, similique commodi iure modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime beatae id eligendi assumenda voluptates, animi ea eum illo iste sed!</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            itens.style.display = 'block'
+        }
+    </script>
 </body>
 </html>
