@@ -128,3 +128,10 @@ footer p a:hover {
         border: none;
     }
 }
+
+@media screen and (min-width: 992px) {
+    #itens ul {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
