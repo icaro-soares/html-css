@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>meu site</h1>
         <span class="material-symbols-outlined" id="menu" onclick="clickMenu()">menu</span>
@@ -38,6 +38,13 @@
         <p>Site desenvolvido por <a href="https://github.com/icaro-soares/" target="_blank">Ícaro Soares</a> para o <a href="https://www.cursoemvideo.com/" target="_blank">cursoemvídeo</a></p>
     </footer>
     <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display ='block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
         function clickMenu() {
             if (itens.style.display == 'none'){
                 itens.style.display = 'block'
