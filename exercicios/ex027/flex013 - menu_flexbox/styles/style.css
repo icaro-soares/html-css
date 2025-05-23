@@ -15,28 +15,54 @@ body {
 
 header {
     background-color: gray;
-    padding: .6em;
+    padding: 10px;
     color: white;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
     border: 1px dotted black;
+    flex: 0 0 200px;
 }
 
 nav {
     border: 1px dotted black;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+nav a {
+    background-color: black;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
 }
 
 main {
     background-color: white;
-    border-radius: 1em;
-    padding: .6em;
-    margin: 1em;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 16px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.445);
 }
 
 main h2 {
-    margin: 1em 0;
+    margin: 16px 0;
     text-indent: 1em;
 }
 
