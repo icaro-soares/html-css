@@ -1,1 +1,26 @@
 @charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: normal 1em Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+header, .normal {
+    padding: 10px;
+}
+
+p, h1, h2 {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.conteudo-flex {
+    padding: 20px;
+    background-color: lightgray;;
+}
