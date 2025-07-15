@@ -27,12 +27,13 @@ footer a:hover {
 }
 
 #album {
+    margin: 16px;
     display: flex;
     flex-flow: row wrap;
 }
 
 .coluna {
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
     flex: 1 1 100%;
     padding: 0 5px;
 }
