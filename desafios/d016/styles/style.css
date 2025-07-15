@@ -11,36 +11,33 @@ body {
 
 header, footer {
     text-align: center;
-    padding: 2em;
-    font-weight: bold;
+    padding: 1.5em;
     background-color: black;
     color: white;
 }
 
-header {
-    margin-bottom: 2em;
-}
-
-footer {
-    margin-top: 2em;
-}
-
 footer a {
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: bold;
     color: white;
 }
 
 footer a:hover {
-    text-decoration: underline; 
+    color: #0000ff;
 }
 
-main {
+#album {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+}
+
+.coluna {
+    border: 2px dashed red;
+    flex: 1 1 100%;
+    padding: 0 5px;
 }
 
 main img {
     width: 100%;
-    margin-top: 1.5em;
+    padding-bottom: 10px;
 }
