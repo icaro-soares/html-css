@@ -1,4 +1,46 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font: normal 1em Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    text-align: center;
+    padding: 2em;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+header {
+    margin-bottom: 2em;
+}
+
+footer {
+    margin-top: 2em;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+main img {
+    width: 100%;
+    margin-top: 1.5em;
 }
